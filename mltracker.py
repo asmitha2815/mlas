@@ -14,7 +14,7 @@ from sklearn.metrics import (
 )
 
 # STEP 1: Load dataset
-data = pd.read_csv('C:\ml\dataset\student1.csv')
+data = pd.read_csv(r"C:\ml\dataset\student1.csv")
 
 # STEP 2: Separate features and target
 X = data[["study_hours", "attendance", "previous_marks"]]
