@@ -6,7 +6,7 @@ app=FastAPI()
 model=joblib.load("models/student_model.pkl")
 @app.get("/")
 def home():
-    return {"message":"Student performance prediction API running"}
+    return {"message":"I HATE NISHADH"}
 class Student_model(BaseModel):
     study_hours: float
     attendance: float
